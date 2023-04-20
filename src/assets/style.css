@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gray-100;
+}
+.contain{
+    @apply pt-5 grid grid-cols-4 mx-auto;
+}
+.details{
+    @apply grid grid-cols-2 bg-white mt-10 max-w-7xl mx-auto rounded-md shadow-md shadow-gray-300;
+}
+.pic{
+    @apply mx-auto rounded-md shadow-2xl shadow-gray-800;
+}
+.transit{
+    @apply bg-white w-72 rounded-md m-4 shadow-xl shadow-gray-400 transition hover:shadow-blue-400 ;
+}
+.back{
+    @apply text-xl text-white font-bold p-1 capitalize transition hover:text-red-400 duration-300 ease-in
+    hover:bg-white hover:scale-110 ;
+}
+.NoContain{
+    @apply bg-white max-w-lg mx-auto rounded-md shadow-md shadow-gray-300;
+}
