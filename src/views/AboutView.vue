@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <h1>page abouts</h1>
+    <h1>page about</h1>
     <input type="file" @change="selectFile" accept="image/*">
     <button @click="charge" class="border-2 border-gray-400 rounded-md px-2">Upload</button>
   </div>
